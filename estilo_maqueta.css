@@ -1,0 +1,115 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+#contenedor{
+    width: 85%;
+max-width: 1100px;
+margin: 0 auto;
+    }
+
+.header{
+    width: 100%;
+    background: rgb(93, 43, 233);
+    margin-bottom: 2%;
+    padding: 2%;
+}
+
+.navbar{ 
+    background: rgb(141, 201, 72);
+    color: white;
+    text-align: end;
+    padding: 5px;
+
+    }
+    .navbar ul{
+        list-style-type: none;
+    }
+    .navbar ul li{    
+        display:inline-block;
+    }
+    .navbar ul li a{
+        color: white;
+        text-decoration: none;
+        padding: 20px;
+        display: block;
+    }
+    .navbar ul li a:hover{
+        text-decoration: underline;
+        background-color: tomato;
+        color: rgb(52, 35, 150);
+    }
+    .navbar ul li a:active{
+        background-color: rgb(71, 255, 126);
+        color: rgba(136, 133, 131, 0.6);
+    }
+
+.principal{
+    width: 80%;
+    background: rgb(92, 91, 91);
+    padding: 2%;
+    float: left;
+    border: lightgray;
+    box-sizing: border-box;
+} 
+
+<!-- LIMPIAR FLOAT -->
+<div class="clear" style="clear:both">
+</div>
+
+.banner{
+    width: 20%;
+    height: 250px;
+    background: lightgray;
+    float: right;
+    box-sizing: border-box;
+}
+
+.footer{clear: both;
+background: cadetblue;
+padding: 4%;
+text-align: center;}
+
+.hightlight{
+    background: white;
+    padding: 15px;
+    margin-bottom: 15px;
+
+}
+.Simple{
+background: white;
+padding: 2px;
+width: 50%;
+float: left;
+    }
+
+.notaSimple{
+    padding: 2px;
+    }
+    .notaSimple figure img{
+        filter: opacity(0.5);
+    }
+.imgNota{
+    width: 100%;
+    border-radius: 20%;
+    overflow: hidden;
+}
+
+.breadcrum{
+    background: wheat;
+    color: yellowgreen;
+    width: 50%;
+}
+
+/* selectores anidados > para fijar padre directo "espacio" para emparentar todo*/
+.breadcrum a{
+    color: white;
+}
+
